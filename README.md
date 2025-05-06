@@ -1,34 +1,31 @@
 # TicketEase
 
-A monolithic backend system for a Drama `Plays` ticket booking platform, built for MVP use by a solo developer.
+A monolithic backend system for a Drama (`Play`) ticket booking platform, built for MVP use by a solo developer.
 Supports user registration, event discovery, seat selection, booking flow, e-ticket generation, and admin-controlled
-event/show management.
+`Play` management.
 
 ## Features
-
----
 
 ### 👤 User Management
 
 - Users can register with email and password.
 - Users can log in securely and receive a session token (JWT).
 - Authenticated users can access their account and booking history.
-- Passwords are securely stored using hashing (e.g., BCrypt).
 
 ---
 
-### 🎭 Event & Show Discovery
+### 🎭 Play Discovery
 
-- Users can browse a list of upcoming `Plays`.
-- `Plays` can be filtered by city, date and time.
-- Users can search `Plays` using a keyword (title, description, artists or writer).
-- Users can see list of `Plays` available with Theater, time and price.
+- Users can browse a list of upcoming `Play`.
+- `Play` can be filtered by city, date and time.
+- Users can search `Play` using a keyword (title, description, artists and/or writer).
+- Users can see list of `Play` available with the Theater, time and price.
 
 ---
 
 ### 🪑 Seat Selection & Locking
 
-- Users can view available seats for a selected `Plays` in real-time.
+- Users can view available seats for a selected `Play` in real-time.
 - Users can select and lock seats for 5 minutes.
 - System prevents double-booking by locking seats atomically.
 - Locked seats expire automatically if not booked within the timeout window (5 minutes).
@@ -46,7 +43,7 @@ event/show management.
 ### 📄 E-Ticket Generation
 
 - Users receive a digital ticket upon successful booking.
-- E-ticket includes `Plays` details, seat info, timing, and QR code.
+- E-ticket includes `Play` details, seat info, timing, and QR code.
 - Tickets can be downloaded as PDF format.
 
 ---
@@ -54,22 +51,37 @@ event/show management.
 ### 📚 Booking History
 
 - Users can view their past and upcoming bookings.
-- Each booking includes `Plays` name, showtime, seats, and booking status.
+- Each booking includes `Play` name, showtime, seats, and booking status.
 
 ---
 
 ### 🛠️ Admin Panel (Seeding Only)
 
-- Admins can create, update, or delete `Plays` via secured APIs.
-- Admins can define cities, `Plays` metadata, venues, and seating layouts.
+- Admins can create, update, or delete `Play` via secured APIs.
+- Admins can define cities, `Play` metadata, venues, and seating layouts.
 - Admin-only actions are secured and require admin privileges.
 
 ---
 
 ## Tech Stack
 
----
 - Java
 - Spring Boot
 - OAuth 2.0
 - MySQL
+- Elasticsearch
+- Docker
+
+
+## Class Diagram
+(to do)
+
+## Schema Diagram
+(to do)
+
+---
+## See more...
+### [Project Timeline](docs/timeline.md)
+### [API Docs](docs/api-docs.md)
+
+
