@@ -74,14 +74,13 @@ Supports user registration, event discovery, seat selection, booking flow, e-tic
 
 
 ## Class Diagram
-(to do)
+![Class Diagram](./docs/class-diagram/TicketEase.drawio.svg)
 
 ## Schema Diagram
 (to do)
 
----
 ## See more...
-### [Project Timeline](docs/timeline.md)
-### [API Docs](docs/api-docs.md)
+### [Project Timeline](./docs/timeline.md)
+### [API Docs](./docs/api-docs.md)
 
 

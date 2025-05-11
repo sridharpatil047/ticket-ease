@@ -1,20 +1,20 @@
 # Timeline
 
-| Items                                 | Start Date  | End Date    | Status (Not Started, In Progress, Done) |
-|---------------------------------------|-------------|-------------|-----------------------------------------|
-| Project Planning                      | May 5, 2025 | May 6, 2025 | In Progress                             |
-| Domain Modeling (Class Diagram)       |             |             |                                         |
-| Database Schema Design                |             |             |                                         |
-| Project Setup                         |             |             |                                         |
-| Implement Domain Models               |             |             |                                         |
-| Implement Seat selection & Locking    |             |             |                                         |
-| Setup Postman for Integration testing |             |             |                                         |
-| Implement Seat Booking                |             |             |                                         |
-| Implement E-ticket generation         |             |             |                                         |
-| Setup Elasticsearch                   |             |             |                                         |
-| Implement Play Discovery              |             |             |                                         |
-| Implement Auth                        |             |             |                                         |
-| Implement Booking History             |             |             |                                         |
+| Items                                 | Start Date   | End Date     | Status (Not Started, In Progress, Done) |
+|---------------------------------------|--------------|--------------|-----------------------------------------|
+| Project Planning                      | May 5, 2025  | May 6, 2025  | Done                                    |
+| Domain Modeling (Class Diagram)       | May 10, 2025 | May 11, 2025 | Done                                    |
+| Database Schema Design                | May 12, 2025 | May 12, 2025 | Not Started                             |
+| Project Setup                         |              |              |                                         |
+| Implement Domain Models               |              |              |                                         |
+| Implement Seat selection & Locking    |              |              |                                         |
+| Setup Postman for Integration testing |              |              |                                         |
+| Implement Seat Booking                |              |              |                                         |
+| Implement E-ticket generation         |              |              |                                         |
+| Setup Elasticsearch                   |              |              |                                         |
+| Implement Play Discovery              |              |              |                                         |
+| Implement Auth                        |              |              |                                         |
+| Implement Booking History             |              |              |                                         |
 
 
 ## Project Planning
